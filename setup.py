@@ -1,9 +1,11 @@
 from setuptools import setup
+from pathlib import Path
 
 setup(
   name='uvicorn_daemonite',
-  version='0.1.0',
+  version='0.1.1',
   description='Run you apps as server. A start/stop/status commandline for your ASGI/WSGI compatible frameworks.',
+  long_description=Path("README.rst").read_text(encoding="utf-8"),
   url='https://github.com/etm/uvicorn_daemonite',
   author="Juergen 'eTM' Mangler",
   author_email='juergen.mangler@gmail.com',
