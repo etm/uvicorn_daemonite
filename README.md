@@ -24,16 +24,16 @@ After adding und making your my_app.py executable type:
 
 for more info about parameters.
 
-#### Future
+## Future
 
 I might add code so that info shows memory utilization.
 
-#### Warning
+## Warning
 
 I know nothing about python, and I think its a pile of dung as a language. Has
 some nice libraries though, so I have to make life bearable for myself. The
 code in this lib might be very bad or unideomatic. Deal with it.
 
-#### License
+## License
 
 LGPL 3.0 or later
