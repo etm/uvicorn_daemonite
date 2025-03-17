@@ -54,8 +54,9 @@ Warning
 =======
 
 I know nothing about python, and I think its a pile of dung as a language. Has
-some nice libraries though, so I have to make life bearable for myself. The
-code in this lib might be very bad or unideomatic. Deal with it.
+some nice libraries though (definitely not flask or fastapi btw.), so I have to
+make life bearable for myself. The code in this lib might be very bad or
+unideomatic. Deal with it.
 
 License
 =======
