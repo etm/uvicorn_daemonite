@@ -9,11 +9,10 @@ import psutil
 import uvicorn
 
 __version__ = "0.1.0"
-__author__  = "Juergen 'eTM' Mangler'
+__author__  = "Juergen 'eTM' Mangler"
 __credits__ = "Matz for creating something that doesnt suck as hard as this."
 
-class UvicornDaemonite:
-  class UvicornDaemonizeApp:
+class Daemonite:
   def __init__(self,**arguments):
     self.config = arguments
     self.parser = argparse.ArgumentParser(
