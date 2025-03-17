@@ -1,4 +1,4 @@
-### UVICORN Deamonite
+# UVICORN Deamonite
 
 Allows you to start/stop/restart ASGI/WSGI servers as daemons without needing
 to know any commandline arguments or using screen. Add the following to your
