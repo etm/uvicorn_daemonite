@@ -40,7 +40,7 @@ app = FastAPI()
 async def root():
     return {"message": "Hello World"}
 
-if __name__ == "__main__":                                                                                                                                                                                            
+if __name__ == "__main__":                                                                     
   Daemonite(
     name="main",
     description="Does do canonic pythionic things.",
