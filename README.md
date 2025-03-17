@@ -24,6 +24,30 @@ After adding und making your my_app.py executable type:
 
 for more info about parameters.
 
+## Full FastAPI example
+
+The following code has to be in a file **main.py**, the Daemonite name has
+to be **main** in this case.
+
+```
+#!/usr/bin/python
+from fastapi import FastAPI
+from uvicorn_daemonite import Daemonite
+
+app = FastAPI()
+
+@app.get("/")
+async def root():
+    return {"message": "Hello World"}
+
+if __name__ == "__main__":                                                                                                                                                                                            
+  Daemonite(
+    name="main",
+    description="Does do canonic pythionic things.",
+    port="6969",
+    log_level="info").start()
+```
+
 ## Future
 
 I might add code so that info shows memory utilization.
